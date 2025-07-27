@@ -144,7 +144,7 @@
 
 @keyframes running-line-right {
   0% {
-    transform: translateX(50%);
+    transform: translateX(0);
     transform-origin: left center;
   }
 
@@ -156,13 +156,13 @@
 
 @keyframes running-line-left {
   0% {
-    transform: translateX(-50%);
-    transform-origin: left center;
+    transform: translateX(0);
+    // transform-origin: left center;
   }
 
   100% {
-    transform: translateX(50%);
-    transform-origin: right center;
+    transform: translateX(100%);
+    // transform-origin: right center;
   }
 }
 
